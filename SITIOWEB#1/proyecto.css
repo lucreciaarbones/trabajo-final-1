@@ -1,0 +1,201 @@
+/* Estilo general */
+body  {
+        font-family: "Barrio", serif;
+        background-color: #edede9;
+        margin: 0%;
+        padding:0%; 
+        text-align: center;
+        text-decoration-color: #000000;
+    }
+/* Encabezado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #d6ccc2;
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.contact-button {
+    display: flex;
+    flex-direction: column; /* Apila los botones verticalmente */
+    gap: 5px; /* Espacio entre los botones */
+    margin-bottom: 3px;
+    background-color: #03045e;
+    color: #ffffff;
+    border: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.contact-button:hover {
+    background-color: #00b4d8;
+}
+/* Columna derecha */
+.container-class-col-md-6-mb-4 {
+    text-align: center;
+    color: #000000;
+    padding: 50px;
+    text-decoration: none;
+}
+ /* Lista */
+ul.center {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;    
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Galerías */
+.image-row {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    flex-wrap: wrap; 
+  }
+  /* Imágenes */
+  .gallery img {
+    width: 30%; 
+    height: 400px; 
+    object-fit: none; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px rgba(74, 73, 73, 0.1); 
+    transition: transform 0.3s ease; 
+  }
+  /* Efecto hover */
+  .gallery img:hover {
+    transform: scale(2.05); 
+  }
+
+/* Pie de página */
+.custom-footer {
+    background-color: #d6ccc2;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custom-footer a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 5px;
+    }
+
+.custom-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Tarjetas */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-text {
+    color: #000000;
+    text-align: center;
+    padding: 35px;
+    text-decoration:double
+}
+/* botones y enlaces */
+.button-section-column {
+    display: center;
+    flex-direction: column; /* Organiza los botones verticalmente */
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 10px; /* Espacio entre botones */
+    margin-bottom: 10px;
+    padding: 15px; /* Espaciado interno */
+    border: 5px;
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f0efeb;
+    padding: 10px;
+    cursor:pointer;
+    font-size: 2rem; /* Tamaño de letra */
+    font-family: "Barrio", serif;
+    color: #000000;
+  }
+  .btn:hover {
+    background-color: #03045e; /* Color al pasar el cursor */
+    transform: scale(1.05); /* Efecto de agrandamiento */
+  }
+.a-class-pais{
+    font-family:"Barrio", serif;
+    color:#ffffff
+}
+.btn-button-section {
+    background-color:#03045e;
+    display:center;
+    flex-direction: column; /* Organiza los botones verticalmente */
+    justify-content: center; /* Centra los botones horizontalmente */
+    margin-bottom: 10px;
+    padding: 15px; /* Espaciado interno */
+    border: 5px;
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px;
+    cursor:pointer;
+    font-size: 2rem; /* Tamaño de letra */
+    font-family:"Barrio", serif;
+    color:#ffffff
+}
+.btn-button-section:hover {
+    background-color: #367a9c; /* Color al pasar el cursor */
+    transform: scale(1.05); /* Efecto de agrandamiento */
+}
+.a-class-wsp{
+    font-family:"Barrio", serif;
+    color:#ffffff
+}
+/* Formulario */
+form input {
+     padding: 10px;
+     border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    }
+/* Estilo para el botón de envío */
+    form button {
+    padding: 10px 20px;
+        background-color: #03045e; /* Color de fondo azul */
+        color: white; /* Texto en blanco */
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    form button:hover {
+        background-color: #00b4d8; 
+    }
+
+/* Grilla */
+.container {
+    max-width: 1200px;
+    text-align: center;
+}
+
+/* Estilo de listas */
+.list-group-item {
+    font-size: 1rem;
+    color: #000000;
+    text-align: center;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+    text-align: center;
+}
